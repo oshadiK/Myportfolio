@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">My Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Page -->
+     <section id="home" class="vh-100 d-flex align-items-center text-center text-white" style="background: url('bg1.jpg') no-repeat center center/cover;">
+        <div class="container">
+            <img src="me.png" alt="my profile picture" class="rounded-circle img-fluid mb-3" style="width: 200px;" />
+            <h1>Welcome to My Portfolio</h1>
+            <p class="lead">Hi, I'm K.V Oshadi Kavishka. A passionate undergraduate student.</p>
+        </div>
+     </section>
+
+
+    <!-- About Page -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <h1 class="text-center mb-4">About Me</h1>
+            <div class="row align-items-center">
+                <div class="col-md-4 text-center">
+                    <img src="me.png" alt="Your Photo" class="img-fluid rounded-circle">
+                </div>
+                <div class="col-md-8">
+                    <p>Hello! My name is K.V Oshadi Kavishka, and I am a under graduate student in Gampaha Wickramarachchi University of 
+                        Indigenous Medicine. My degree programe is Bachelor of Health Information and Communication 
+                        Technology. With skills in Web developing , Programming Language (CSS , HTML, MySQL, Java , python), 
+                        Editing (Adobe Photoshop, Coreldraw, Adobe Illustrator), I strive to create impactful solutions and bring ideas to life.</p>
+                    <a href="my cv.pdf" class="btn btn-primary me-2">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Page -->
+    <section id="projects" class="py-5 bg-light">
+        <div class="container">
+            <h1 class="text-center mb-4">My Projects</h1>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="pro1.jpg" class="card-img-top" alt="Project 1">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Project 1</h5>
+                            <p class="card-text">CSR Project.</p>
+                            <a href="#" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="pro2.jpg" class="card-img-top" alt="Project 2">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Project 2</h5>
+                            <p class="card-text">Arduino Competition.</p>
+                            <a href="#" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="pro3.jpg" class="card-img-top" alt="Project 3">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Project 3</h5>
+                            <p class="card-text">Libary Managment System.</p>
+                            <a href="#" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    <!-- Contact Page -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h1 class="text-center mb-4">Contact Me</h1>
+            <form action="" method="post">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" name="name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-3 text-center">
+        <p>&copy; 2025 My Portfolio. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
